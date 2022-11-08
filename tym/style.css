@@ -1,0 +1,22 @@
+
+.color{
+    color: #E0144C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    float:left;
+    height: 100%;
+    width: 100%;
+    animation: heart 1.75s ease infinite;
+    /* font-family: 'Montserrat';   */
+    font-family: 'My-Custom-Font';
+    font-weight: bold;
+}
+/* 
+body{
+    background-image: url(./mo.jpg);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+   
+} */
