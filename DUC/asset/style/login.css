@@ -1,0 +1,58 @@
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 73px;
+  padding: 201px 0;
+}
+
+#login_form .login_title {
+  text-align: center;
+  font-size: 27px;
+}
+
+.login_input__child {
+  padding: 19px 0;
+  line-height: 39px;
+}
+
+.login_input__child input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--black);
+  width: 800px;
+  padding: 6px 0px;
+}
+.login_input__child input::-moz-placeholder {
+  color: var(--black);
+  font-size: 16px;
+}
+.login_input__child input:-ms-input-placeholder {
+  color: var(--black);
+  font-size: 16px;
+}
+.login_input__child input::placeholder {
+  color: var(--black);
+  font-size: 16px;
+}
+
+#login_form .login_submit {
+  text-align: center;
+}
+
+#submit {
+  border: none;
+  width: 184px;
+  height: 71px;
+  border-radius: 50px;
+  background-color: var(--yellowStrong);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+.invalid {
+  color: var(--invalid);
+}
